@@ -77,7 +77,20 @@
     overflow: hidden;
     align-items: center;
    /* background: conic-gradient( #615a5a 0deg 90deg,#777272 90deg 270deg,#615a5a 270deg 360deg); */
-   background: conic-gradient( #615a5a 0deg 90deg,#777272, #777171 90deg 270deg,#615a5a 270deg 360deg);
+  /* background: conic-gradient( #615a5a 0deg 90deg,#777272, #777171 90deg 270deg,#615a5a 270deg 360deg);*/
+background: rgb(122, 122, 122);
+background: linear-gradient(
+    0deg,
+    #a3a2a2 0%,
+    #929191 20%,
+    #7e7b7b 40%,
+    #5c5757 50%,
+    #474646 60%,
+    #5e5d5d 80%,
+    #4e4d4d 100%
+
+
+  );
     height: 37px;
     width: 100%;
 
@@ -161,7 +174,8 @@ a{
 }
 
 #homefooter {
-    min-width: 980px;   
+    min-width: 980px; 
+    width: 100%;  
     height: 100px;
     padding: 1rem 5rem;
     color: #6e6e6e;
@@ -178,8 +192,7 @@ a{
     float: right;
     text-align: right;
     word-spacing: 1px;
-    padding-left: 45rem;
-    gap: 1rem;
+    padding-left: 30rem;
 }
 .clear {
     clear:both
@@ -201,8 +214,8 @@ a{
     position: absolute;
     float: left;
     clear: both;
-    height: 30%;
-    width: 60%;
+    height: 50%;
+    width: 100%;
     text-align: left;
 }
 
